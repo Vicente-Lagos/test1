@@ -14,6 +14,7 @@ class User:
 user1 = User("Vicente", "Lagos", 25)
 user1.login("Vicente", "Lagos", 25) 
 user1.login("Ana", "Pérez", 30)
+user1.login("Ariel", "Roco", 12)
 
 
 
