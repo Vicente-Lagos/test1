@@ -12,7 +12,9 @@ class User:
             print('Acceso denegado')
 
 user1 = User("Vicente", "Lagos", 25)
+user2 = User('Jorge', 'Mardones', 12)
 user1.login("Vicente", "Lagos", 25) 
+user2.login('Jorde', 'Mardones', 12)
 user1.login("Ana", "Pérez", 30)
 user1.login("Ariel", "Roco", 12)
 
